@@ -6,11 +6,12 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static mycompany.Constants.TWO;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by Admin on 05-05-2017.
+ * Created by Naresh Kumar Rachepalli on 06-05-2017.
  */
 public class TradeReportTest {
 
@@ -25,7 +26,7 @@ public class TradeReportTest {
 
     @Test
     public void testTradeListSize() throws Exception{
-        assertTrue(2 == tradeReport.getTradeList("test.xml").size());
+        assertTrue(TWO == tradeReport.getTradeList("test.xml").size());
     }
 
     @Test
@@ -43,11 +44,11 @@ public class TradeReportTest {
 
     @Test
     public void testGetValidSettlementDate() throws Exception{
-        assertEquals("08-May-2017", tradeReport.getValidSettlementDate("07-May-2017", "GBP"));
+        assertEquals("08-May-2017", ReportUtility.getValidSettlementDate("07-May-2017", "GBP"));
     }
 
     @Test
     public void testGetValidSettlementDateForSpecialCurrency() throws Exception {
-        assertEquals("07-May-2017", tradeReport.getValidSettlementDate("05-May-2017", "SAR"));
+        assertEquals("07-May-2017", ReportUtility.getValidSettlementDate("05-May-2017", "SAR"));
     }
 }
