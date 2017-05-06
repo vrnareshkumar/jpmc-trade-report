@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fxmanager>
+	<entity>
+		<entityname>foo</entityname>
+		<tradetype>B</tradetype>
+		<agreedfx>0.50</agreedfx>
+		<currencytype>SGP</currencytype>
+		<instructiondate>2017-04-19</instructiondate>
+		<settlementdate>2017-04-20</settlementdate>
+		<units>200</units>
+		<priceperunit>100.25</priceperunit>
+	</entity>
+	<entity>
+		<entityname>bar</entityname>
+		<tradetype>S</tradetype>
+		<agreedfx>0.22</agreedfx>
+		<currencytype>AED</currencytype>
+		<instructiondate>2017-04-24</instructiondate>
+		<settlementdate>2017-04-25</settlementdate>
+		<units>450</units>
+		<priceperunit>150.5</priceperunit>
+	</entity>
+</fxmanager>

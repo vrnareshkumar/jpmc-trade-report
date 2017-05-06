@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fxmanager>
+	<entity>
+		<entityname>ABC</entityname>
+		<tradetype>B</tradetype>
+		<agreedfx>0.25</agreedfx>
+		<currencytype>AED</currencytype>
+		<instructiondate>2017-05-05</instructiondate>
+		<settlementdate>2017-05-06</settlementdate>
+		<units>500</units>
+		<priceperunit>180.5</priceperunit>
+	</entity>
+	<entity>
+		<entityname>ABC</entityname>
+		<tradetype>S</tradetype>
+		<agreedfx>0.30</agreedfx>
+		<currencytype>GBP</currencytype>
+		<instructiondate>2017-05-05</instructiondate>
+		<settlementdate>2017-05-06</settlementdate>
+		<units>1000</units>
+		<priceperunit>120</priceperunit>
+	</entity>
+	<entity>
+		<entityname>bar</entityname>
+		<tradetype>S</tradetype>
+		<agreedfx>0.40</agreedfx>
+		<currencytype>EUR</currencytype>
+		<instructiondate>2017-05-06</instructiondate>
+		<settlementdate>2017-05-07</settlementdate>
+		<units>700</units>
+		<priceperunit>120.2</priceperunit>
+	</entity>
+</fxmanager>
