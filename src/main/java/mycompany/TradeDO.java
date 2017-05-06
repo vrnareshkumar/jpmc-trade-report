@@ -1,10 +1,10 @@
 package mycompany;
 
-import java.time.LocalDate;
 
 /**
- * Created by Admin on 04-05-2017.
+ * Created by Naresh Kumar Rachepalli on 06-05-2017.
  */
+
 public class TradeDO {
 
     public String entityName;
